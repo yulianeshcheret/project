@@ -1,0 +1,436 @@
+@media only screen and (max-width: 480px)
+{ 
+	/*content1======================*/
+	.header
+{
+	position: absolute;
+}
+.section {
+  width: 50px;
+  height: 50px;
+  display: none;
+  position: fixed;
+  background: transparent;
+  top: 17px;
+  right: 20px;
+  z-index: 110;
+}
+	.text
+{
+	padding-top: 30%;
+	padding-bottom: 5%;
+}
+.text button
+{
+	margin-top: 20%;
+}
+/*menu========================*/
+ .menu
+{
+	display: none;
+}
+.menu .open
+{
+	display: block;
+}
+.menu
+{
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0.9);
+	/*float: right;*/
+	position: fixed;
+	top: 0;
+	padding-top: 100px;
+	/*margin-right:0px;*/
+	/*margin-top: 30px;*/
+	/*padding-top: 25px;*/
+	/*overflow: hidden;*/
+	text-align: left;
+}
+menu ul
+{
+	/*display: none;*/
+}
+.menu ul li
+{
+
+	/*height: 30px;*/
+	list-style-type: none;
+	display: block;
+	margin-left: 50px;
+	/*background: blue;*/
+
+
+}
+.menu ul li a
+{
+	text-decoration: none;
+	/*display: block;*/
+	/*background: red;*/
+	line-height: 50px;
+	font-size: 20px;
+	letter-spacing: 0.08em;
+	margin: 20px;
+	color: white;
+	font-family: SamsungSharpSansBd;
+
+}
+/*menu-=========================*/
+.logo
+{
+	width: 200px;
+	height: 70px;
+	/*float: left;*/
+	margin-left: calc(50% - 100px);
+	overflow: hidden;
+	/*background: red*/
+	/*cursor: pointer;*/
+}
+
+/*content2======================*/
+.conteiner	
+{
+	height: 1500px;
+	background: white;
+	
+}
+.content2
+{
+	width: 100%;
+	height: 300px;
+	/*background: red;*/
+	margin: auto;
+	text-align: center;
+}
+.content2 h3
+{
+	font-size: 36px;
+	margin-top: 80px;
+}
+.content2 p
+{
+	width: 85%;
+}
+.box img
+{
+	width: 90%;
+}
+.content2 .box
+{
+	width: 100%;
+	height: 890px;
+	/*background: blue;*/
+	padding-top: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.content2 .box
+{
+	width: 100%;
+	/*height: 490px;*/
+}
+	/*background: blue;
+	padding-top: 0px;
+}
+.content2 .box img
+{
+	width: 100%;
+}
+
+/*content3==============================*/
+.content3
+{
+	width: 100%;
+	height: 640px;
+	background: black;
+	/*background: red;*/
+	position: relative;
+	overflow: hidden;
+}
+.content3 img
+{
+	/*display: none;*/
+	width: 80%;
+}
+.content3 .text
+{
+	width: 74%;
+	height: 70px;
+	/*background: red;*/
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 15%;
+	padding-top: 40px;
+}
+.content3 h1
+{
+	font-size: 30px;
+	line-height: 40px;
+}
+.content3 p
+{
+	width: 100%;
+	/*text-align: justify;*/
+	font-size: 18px;
+	line-height: 31px;
+	margin-top: 20px;
+	/*background: red*/
+}
+
+/*content4==========================*/
+.content4
+{
+	width: 100%;
+	height: 700px;
+	background: white;
+	position: relative;
+}
+.content4 img
+{
+	width: 90%;
+	/*display: none;*/
+	position: absolute;
+	bottom: -2%;
+}
+.content4 .text
+{
+	width: 90%;
+	height: 370px;
+	/*background: red;*/
+	margin:40px auto;
+	text-align: center;
+	padding: 0;
+}
+.content4 h1
+{
+	font-family: SamsungSharpSansBd;
+	font-size: 46px;
+	color: #363636;
+	line-height: 50px;
+
+}
+.content4 p
+{
+	color: #363636;
+	font-size: 18px;
+	line-height: 28px;
+	/*background: red;*/
+	margin-top: 5%;
+}
+/*content5====================*/
+.content5
+{
+	width: 100%;
+	height: 700px;
+}
+.content5 img
+{
+	width: 90%;
+	left: 20px;
+}
+.content5 h1
+{
+	font-size: 46px;
+	color: white;
+	margin-top: 80px;
+}
+.content5 p
+{
+	margin-top: 15px;
+	font-size: 18px;
+	line-height: 31px;
+}
+
+
+/*content6================================*/
+.content6
+{
+	position: relative;
+	width: 100%;
+	height: 2100px;
+	background: white;
+	text-align: left;
+	overflow: hidden;
+}
+.content6 .im 
+{
+	width: 55%;
+	position: absolute;
+	/*top: 1600px;*/
+	left: 25%
+	
+	/*background: red*/
+}
+.music
+{
+	/*display: none;*/
+	position: absolute;
+	top: 1650px;
+	left: 0;
+	width: 100%;
+	height: 450px;
+	/*background: red;*/
+	z-index: 10;
+	text-align: center;
+}
+.music .lf
+{
+	width: 30%;
+	position: absolute;
+	left: 30px;
+	margin-top: 80px;
+	z-index: -10;
+}
+.music .rt
+{
+	width: 30%;
+	position: absolute;
+	left: 65%;
+	margin-top: 80px;
+	z-index: -10;
+}
+.content6 .music h1
+{
+	width: 100%;
+	font-family: SamsungSharpSansBd;
+	color: #363636;
+	margin-top: -130px;
+	font-size: 35px;
+}
+.content6 img
+{
+	/*display: none;*/
+	width: 90%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.content6 .im2
+{
+	width: 90%;
+	position: absolute;
+	left: 0;
+	top: 800px;
+}
+.content6 h1
+{
+	width: 90%;
+	font-family: SamsungSharpSansBd;
+	font-size: 46px;
+	color: #363636;
+	margin: 0;
+	margin-top: 10px;
+	/*margin-top: 90px;*/
+}
+.content6 p
+{
+	width: 400px;
+	margin-top: 15px;
+	color: #363636;
+	font-size: 18px;
+	line-height: 31px;
+	font-family: SamsungOneLatinCompact;
+}
+.content6 .text
+{
+	width: 80%;
+	/*background: red;*/
+	text-align: left;
+	margin-top: 300px;
+}
+.content6 .text p {width: 100%;}
+.content6 .text2
+{
+	width: 80%;
+	margin-top: 330px;
+	/*background: red;*/
+	position: absolute;
+	left: 10%;
+}
+.content6 .text2 p
+{
+	width: 100%;
+}
+/*content6_5======================*/
+.content6_5
+{
+	width: 100%;
+	height: 715px;
+	background: black;
+	text-align: center;
+	overflow: hidden;
+	
+}
+.content6_5 video
+{
+	width: 400px;
+	/*margin-top: 13%;*/
+}
+.content6_5 h1
+{
+	width: 90%;
+	margin-top: 80px;
+	margin-left: 5%;
+	margin-bottom: 110px;
+	color: white;
+	/*background: red;*/
+	line-height: 50px;
+	font-family: SamsungSharpSansBd;
+	font-size: 46px;
+}
+
+/*content7=====================================*/
+.content7
+{
+	width: 100%;
+	height: 1600px;
+	background: #363636;
+}
+.content7 .box
+{
+	width: 75%;
+	height: 100%;
+	margin: auto;
+	/*border: 2px solid red;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.content7 .block
+{
+	width: 80%;
+	height: 55%;
+	/*background: green;*/
+	text-align: center;
+}
+.content7 .block:nth-child(2)
+{
+	border-left: none;
+	border-right: none;
+}
+.box .block img
+{
+	width: 40%;
+	margin-top: 50px;
+}
+.box .block h1
+{
+	font-size: 20px;
+	font-family: SamsungOneLatinCompact;
+	color: white;
+	margin-top: 18px;
+}
+.box .block p
+{
+	font-size: 14px;
+	font-family: SamsungOneLatinCompact;
+	margin-top: 12px;
+	color: white;
+	margin-bottom: 50px;
+}
+
+}
